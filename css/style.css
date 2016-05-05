@@ -101,7 +101,9 @@
 	margin-right: 0;
 }
 
-
+.slidermar2 {
+	margin-top: 85px;
+}
 /*-------------------*/
 /*     columns    */
 /*-------------------*/
@@ -196,11 +198,11 @@
 	float: left;
 	display: block;
 	width: 100%;
-	min-height: 50px;
+	min-height: 60px;
 	margin-top: 10px;
 	position: relative;
 	text-indent: -999em;
-	background: url(../images/logo.png) no-repeat left top;
+	background: url(../images2/logo.png) no-repeat left top;
 }
 .logo {
 	float: left;
@@ -224,7 +226,7 @@
 ------------------------------------------------------*/
 .section_title1_1 {
 	text-align:center;
-	padding:85px 0px 50px 0px;
+	padding:50px 0px 50px 0px;
 	background-color:#272727;
 	display:block;
 	
@@ -284,17 +286,17 @@
 	font-weight: 300;
 }
 .page_title.sty2 {
-	background: #272727 url(http://placehold.it/1920x900) no-repeat center top;
+	background: #272727 url(../images2/banner-holder.jpg) no-repeat center top;
 }
 .page_title.sty3 {
-	background: #272727 url(http://placehold.it/1920x900) no-repeat center top;
+	background: #272727 url(../images2/banner-holder.jpg) no-repeat center top;
 }
 
 .page_title2 {
 	float: left;
 	width: 100%;
 	padding: 145px 0px 45px 0px;
-	background: #454545 url(http://placehold.it/1920x450) no-repeat center 50px;
+	background: #454545 url(../images2/banner-holder.jpg) no-repeat center 50px;
 }
 .page_title2 h1 {
 	float: left;
@@ -324,7 +326,7 @@
 	color: #e3e3e3;
 }
 .page_title2.sty2 {
-	background: #272727 url(http://placehold.it/1920x450) no-repeat center top;
+	background: #272727 url(../images2/banner-holder.jpg) no-repeat center top;
 }
 
 .page_title3 {
@@ -333,7 +335,7 @@
 	width: 100%;
 	text-align: center;
 	padding: 270px 0px 145px 0px;
-	background: #272727 url(http://placehold.it/1920x900) no-repeat center top;
+	background: #272727 url(../images2/banner-holder.jpg) no-repeat center top;
 }
 .page_title3 .title {
 	width: 100%;
@@ -462,39 +464,64 @@
 	float: left;
 	width: 100%;
 	text-align: center;
-	padding: 83px 0px ;	
+	padding: 70px 50px;
 }
-.feature_section1 .left {
-	float: left;
-	width: 40%;
-	text-align: left;
-}
-.feature_section1 .right {
-	float: right;
-	width: 60%;
-	text-align: left;
-	padding-left:30px;
-}
-.feature_section1 h2{
-	font-weight:500;
-	margin: 0px;
-}
-.feature_section1 b{
-	font-size: 40px;
+.feature_section1 .box h5{
 	font-weight:bold;
-	line-height:50px;
-}
-.feature_section1 em{
 	font-size: 16px;
-	font-weight:600;
-	color:#727272;
-	font-style:normal;
+	text-transform: uppercase;
+	color:#f1a422;
+	line-height:15px;
+	margin:30px auto 15px auto;
+	transition: all 0.3s ease;
 }
-.feature_section1 p{
-	font-size: 16px;
-	font-style:normal;
-	line-height: 25px;
-	padding-bottom:18px;
+.feature_section1 .bgline {
+	width: 50px;
+	height: 1px;
+	background-color: #f1a422;
+	margin:0 auto;	
+	transition: all 0.3s ease;
+}
+.feature_section1 .box {
+	width: 100%;
+	margin:0 auto;
+	transition: all 0.3s ease;
+}
+.feature_section1 .box:hover .bgline,
+.feature_section1 .box.active .bgline {
+	background-color: #f1a422;
+}
+.feature_section1 .box:hover h5,
+.feature_section1 .box.active h5 {
+	color: #f1a422;
+}
+.feature_section1 .box i {
+	background-color: #545454;
+	height: 100px;
+	width: 100px;
+	line-height: 90px;
+	padding: 0;
+	border-radius: 100%;
+	text-align: center;
+	transition: all 0.3s ease;
+	color: #fff;
+	font-size: 38px;
+	display: block;
+	margin: 0 auto;
+	border: 5px solid #fff;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+.feature_section1 .box:hover i,
+.feature_section1 .box.active i {
+	color: #fff;
+	background-color: #eeb838;
+}
+.feature_section1 .box p{
+    text-align:center;
+	padding-top: 20px;
+	line-height:25px;	
 }
 
 /* features_section 2 */
@@ -546,7 +573,7 @@
 	text-align: center;
 }
 .feature_section3  p{
-	padding-top:25px;
+	padding-top:15px;
 	color:#fff;
 }
 .feature_section3 h2{
@@ -618,7 +645,7 @@
 	padding:75px 0px 30px 35px;
 }
 .feature_section5 .leftbox .img {
-	background-image: url(../images/site-image05.png);
+	background-image: url(../images2/site-image05.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	height: 597px;
@@ -631,7 +658,7 @@
 	padding-right: 2%;
 	padding-bottom:80px;
 	padding-left:70px;
-	background: #2ecc71;
+	background: #f7941e;
 }
 .feature_section5 .box {
 	background-color:#fff;
@@ -653,7 +680,7 @@
 	width: 50px;
 	height: 2px;
 	margin-bottom:14px;
-	background-color: #2ecc71;
+	background-color: #f15a22;
 }
 
 

@@ -3,26 +3,26 @@
 ------------------------------------------------------*/
 .button.one {
 	font-family: 'Open Sans', sans-serif;
-	color: #2ecc71;
+	color: #ea6a26;
 	font-size: 14px;
 	font-weight: 600;
 	transition: all 0.3s ease;
 	text-transform: uppercase;
 }
 .button.one:hover {
-	color: #272727;
+	color: #e84c28;
 }
 
 .button.two {
 	font-family: 'Open Sans', sans-serif;
-	color: #2ecc71;
+	color: #ea6a26;
 	font-size: 13px;
 	font-weight:600;
 	transition: all 0.3s ease;
 	text-transform:uppercase;
 }
 .button.two:hover {
-	color: #272727;
+	color: #e84c28;
 }
 
 .button.three {

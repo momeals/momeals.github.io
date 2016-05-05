@@ -104,12 +104,12 @@ p {
 
 /* Links */
 a {
-	color: #2ecc71;
+	color: #ea6a26;
 	text-decoration: none;
 }
 a:hover {
 	text-decoration: none;
-	color: #454545;
+	color: #e84c28;
 }
 .sitecolor {
 	color: #86c724;

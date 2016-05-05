@@ -1,13 +1,13 @@
 ul.nav>li>a.active {
-	color:#2ecc71;
+	color:#f09c23;
 }
 
 ul.nav>li>a:hover.active {
-	color:#2ecc71;
+	color:#f09c23;
 }
 
 ul.nav>li>a:hover {
-	color:#2ecc71;
+	color:#f09c23;
 	transition: all 0.3s ease;
 }
 
@@ -20,7 +20,7 @@ ul.nav>li>a.buynowbut {
 }
 ul.nav>li>a.buynowbut:hover {
 	color: #fff;
-	border: 1px solid #2ecc71;
+	border: 1px solid #f09c23;
 	background: #2ecc71;
 }
 
